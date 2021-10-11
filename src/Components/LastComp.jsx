@@ -7,7 +7,7 @@ const LastComp = () => {
   };
   return (
     <div>
-      <h3>this is last comp{count}</h3>
+      <h3>This is last comp{count}</h3>
       <button onClick={countBtnFunc}>lastcomp</button>
     </div>
   );

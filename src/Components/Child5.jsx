@@ -7,7 +7,7 @@ const Child6 = () => {
   };
   return (
     <div>
-      <h3>this is 5 child{btn1}</h3>
+      <h3>This button decrease 2 value {btn1}</h3>
       <button onClick={btn1Func}>button6</button>
       <LastComp />
     </div>
