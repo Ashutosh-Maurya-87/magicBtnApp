@@ -4,7 +4,7 @@ const Child2 = () => {
   const [btn1, setBtn1] = useState(0);
   const [btn2, setBtn2] = useState(0);
   const btn2Func = () => {
-    if (btn1 > 0) {
+    if (btn1 >= 0) {
       setBtn2(btn1 - 2);
     } else {
       setBtn1(btn1 + 2);
